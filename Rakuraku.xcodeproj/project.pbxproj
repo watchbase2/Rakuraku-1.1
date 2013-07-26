@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8878710317A2BCFA00D9E13B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8878710217A2BCFA00D9E13B /* UIKit.framework */; };
+		8878710517A2BCFA00D9E13B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8878710417A2BCFA00D9E13B /* Foundation.framework */; };
+		8878710717A2BCFA00D9E13B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8878710617A2BCFA00D9E13B /* CoreGraphics.framework */; };
+		8878710D17A2BCFA00D9E13B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8878710B17A2BCFA00D9E13B /* InfoPlist.strings */; };
+		8878710F17A2BCFA00D9E13B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8878710E17A2BCFA00D9E13B /* main.m */; };
+		8878711317A2BCFA00D9E13B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8878711217A2BCFA00D9E13B /* AppDelegate.m */; };
+		8878711517A2BCFA00D9E13B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878711417A2BCFA00D9E13B /* Default.png */; };
+		8878711717A2BCFA00D9E13B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878711617A2BCFA00D9E13B /* Default@2x.png */; };
+		8878711917A2BCFA00D9E13B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8878711817A2BCFA00D9E13B /* Default-568h@2x.png */; };
+		8878711C17A2BCFA00D9E13B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8878711B17A2BCFA00D9E13B /* ViewController.m */; };
+		8878711F17A2BCFA00D9E13B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8878711D17A2BCFA00D9E13B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		887870FF17A2BCFA00D9E13B /* Rakuraku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rakuraku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8878710217A2BCFA00D9E13B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8878710417A2BCFA00D9E13B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8878710617A2BCFA00D9E13B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8878710A17A2BCFA00D9E13B /* Rakuraku-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Rakuraku-Info.plist"; sourceTree = "<group>"; };
+		8878710C17A2BCFA00D9E13B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8878710E17A2BCFA00D9E13B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8878711017A2BCFA00D9E13B /* Rakuraku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rakuraku-Prefix.pch"; sourceTree = "<group>"; };
+		8878711117A2BCFA00D9E13B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8878711217A2BCFA00D9E13B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8878711417A2BCFA00D9E13B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8878711617A2BCFA00D9E13B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8878711817A2BCFA00D9E13B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8878711A17A2BCFA00D9E13B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8878711B17A2BCFA00D9E13B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8878711E17A2BCFA00D9E13B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887870FC17A2BCFA00D9E13B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8878710317A2BCFA00D9E13B /* UIKit.framework in Frameworks */,
+				8878710517A2BCFA00D9E13B /* Foundation.framework in Frameworks */,
+				8878710717A2BCFA00D9E13B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887870F617A2BCFA00D9E13B = {
+			isa = PBXGroup;
+			children = (
+				8878710817A2BCFA00D9E13B /* Rakuraku */,
+				8878710117A2BCFA00D9E13B /* Frameworks */,
+				8878710017A2BCFA00D9E13B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8878710017A2BCFA00D9E13B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887870FF17A2BCFA00D9E13B /* Rakuraku.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8878710117A2BCFA00D9E13B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8878710217A2BCFA00D9E13B /* UIKit.framework */,
+				8878710417A2BCFA00D9E13B /* Foundation.framework */,
+				8878710617A2BCFA00D9E13B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8878710817A2BCFA00D9E13B /* Rakuraku */ = {
+			isa = PBXGroup;
+			children = (
+				8878711117A2BCFA00D9E13B /* AppDelegate.h */,
+				8878711217A2BCFA00D9E13B /* AppDelegate.m */,
+				8878711A17A2BCFA00D9E13B /* ViewController.h */,
+				8878711B17A2BCFA00D9E13B /* ViewController.m */,
+				8878711D17A2BCFA00D9E13B /* ViewController.xib */,
+				8878710917A2BCFA00D9E13B /* Supporting Files */,
+			);
+			path = Rakuraku;
+			sourceTree = "<group>";
+		};
+		8878710917A2BCFA00D9E13B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8878710A17A2BCFA00D9E13B /* Rakuraku-Info.plist */,
+				8878710B17A2BCFA00D9E13B /* InfoPlist.strings */,
+				8878710E17A2BCFA00D9E13B /* main.m */,
+				8878711017A2BCFA00D9E13B /* Rakuraku-Prefix.pch */,
+				8878711417A2BCFA00D9E13B /* Default.png */,
+				8878711617A2BCFA00D9E13B /* Default@2x.png */,
+				8878711817A2BCFA00D9E13B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887870FE17A2BCFA00D9E13B /* Rakuraku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8878712217A2BCFA00D9E13B /* Build configuration list for PBXNativeTarget "Rakuraku" */;
+			buildPhases = (
+				887870FB17A2BCFA00D9E13B /* Sources */,
+				887870FC17A2BCFA00D9E13B /* Frameworks */,
+				887870FD17A2BCFA00D9E13B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rakuraku;
+			productName = Rakuraku;
+			productReference = 887870FF17A2BCFA00D9E13B /* Rakuraku.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887870F717A2BCFA00D9E13B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Watchbase;
+			};
+			buildConfigurationList = 887870FA17A2BCFA00D9E13B /* Build configuration list for PBXProject "Rakuraku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 887870F617A2BCFA00D9E13B;
+			productRefGroup = 8878710017A2BCFA00D9E13B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887870FE17A2BCFA00D9E13B /* Rakuraku */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887870FD17A2BCFA00D9E13B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8878710D17A2BCFA00D9E13B /* InfoPlist.strings in Resources */,
+				8878711517A2BCFA00D9E13B /* Default.png in Resources */,
+				8878711717A2BCFA00D9E13B /* Default@2x.png in Resources */,
+				8878711917A2BCFA00D9E13B /* Default-568h@2x.png in Resources */,
+				8878711F17A2BCFA00D9E13B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887870FB17A2BCFA00D9E13B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8878710F17A2BCFA00D9E13B /* main.m in Sources */,
+				8878711317A2BCFA00D9E13B /* AppDelegate.m in Sources */,
+				8878711C17A2BCFA00D9E13B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8878710B17A2BCFA00D9E13B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8878710C17A2BCFA00D9E13B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8878711D17A2BCFA00D9E13B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8878711E17A2BCFA00D9E13B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8878712017A2BCFA00D9E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8878712117A2BCFA00D9E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8878712317A2BCFA00D9E13B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakuraku/Rakuraku-Prefix.pch";
+				INFOPLIST_FILE = "Rakuraku/Rakuraku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8878712417A2BCFA00D9E13B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Rakuraku/Rakuraku-Prefix.pch";
+				INFOPLIST_FILE = "Rakuraku/Rakuraku-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887870FA17A2BCFA00D9E13B /* Build configuration list for PBXProject "Rakuraku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8878712017A2BCFA00D9E13B /* Debug */,
+				8878712117A2BCFA00D9E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8878712217A2BCFA00D9E13B /* Build configuration list for PBXNativeTarget "Rakuraku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8878712317A2BCFA00D9E13B /* Debug */,
+				8878712417A2BCFA00D9E13B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 887870F717A2BCFA00D9E13B /* Project object */;
+}
